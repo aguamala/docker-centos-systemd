@@ -2,7 +2,7 @@
 
 cd build/
 
-docker build -t aguamala/centos-systemd:7-${BUILD_NUMBER} .
+docker build-7 -t aguamala/centos-systemd:7-${BUILD_NUMBER} .
 
 DESTINATION=aguamala/centos-systemd:7-${BUILD_NUMBER}
 LATEST_DESTINATION=aguamala/centos-systemd:7
